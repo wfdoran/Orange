@@ -72,5 +72,11 @@ of python.  It is completely free.
 
 7) Run Orange3
 
-   The "install" box in orange3 tile should not be a "run" box.  Click
+   The "install" box in orange3 tile should now be a "run" box.  Click
    it.
+
+   Command line people can avoid navagator with
+
+   $ python3 -m Orange.canvas
+
+
