@@ -1,0 +1,76 @@
+Installing Orange3
+
+Orange3 is written in python and comes with the anaconda distribution
+of python.  It is completely free.
+
+1) Download anaconda 2020.07 with python 3.8.
+
+   The basic info about anaconda is at
+  
+     https://www.anaconda.com/products/individual
+
+   and download links are at the bottom of the page
+  
+    Windows: https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe
+    Mac:     https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.pkg
+    Linux:   https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+	 
+2) Anaconda Windows Install
+
+   https://docs.anaconda.com/anaconda/install/windows/
+
+   Double click on Anaconda3-2020.07-Windows-x86_64.exe.
+   Click on "Run"
+   Click on "Next"
+   Click on "I Agree"
+   Choose "Just Me"   [If you choose "All users" you will get 
+                       permission issues when you try to install Orange3]
+   Click on "Next"
+   Change the path if you want.
+   Click on "Next"
+   Advanced Installation Options: go with the defaults
+   Click "Install"
+   Click "Next"
+   I tend to unclick both tutorial and "learn more"
+   Click "Finish"
+      
+3) Anaconda Linux Install   
+
+   https://docs.anaconda.com/anaconda/install/linux/
+
+   $ bash Anaconda3-2020.07-Linux-x86_64.sh
+   
+   and follow your nose.  It does need to be bash.  
+   
+4) Anaconda Mac Install
+
+   https://docs.anaconda.com/anaconda/install/mac-os/
+
+   I have never done it.  Being mac, I would hope it is easy.
+   
+5) Run Anaconda Navagator
+
+   For windows, there is a shortcut in the start menu => Anaconda 3
+   (64-bit) => Anaconda Navagator.
+   
+   For Linux, it is in the same bin directory as python
+
+    $ anaconda-navagator    
+	
+   For mac, don't know.  I assume it is obvious.
+
+   The first time you run navagator, it does some initialization.
+   Future launches will be faster.
+
+6) Orange3 Install. 
+
+   In Anaconda Navagator, find the Organe3 3.26.0 Tile and click "Install".
+      
+   For conda pros, you can also use the conda command line 
+
+     $ conda install -c conda-forge orange3
+
+7) Run Orange3
+
+   The "install" box in orange3 tile should not be a "run" box.  Click
+   it.
