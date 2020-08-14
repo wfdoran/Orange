@@ -1,0 +1,11 @@
+height	weight	eye color	hair color	gender	name
+continuous	continuous	discrete	discrete	discrete	string
+				class	meta
+1.6	52.0	blue	brown	female	Jill
+1.75	78.0	brown	brown	male	Jack
+1.65	67.0	brown	black	male	Mark
+1.7	62.0	green	blond	female	Ann
+1.85	89.0	blue	blond	male	Bob
+1.9	93.0	blue	red	male	Tom
+1.67	56.0	brown	brown	female	Kate
+1.64	70.0	blue	red	female	Mary
